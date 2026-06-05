@@ -33,7 +33,7 @@ jobs:
           load: true
           tags: |
             node-app:${{ github.sha }}
-            node-app: latest
+            node-app:latest
           cache-from: type=gha
           cache-to: type=gha, mod=max
       - name: Setting up the docker compose
